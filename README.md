@@ -47,14 +47,6 @@ this drug than we'd expect given how often it's reported for all other drugs?*
 ## Results
 Muscle-related events dominated the disproportionality signals for rosuvastatin: myalgia (591 reports, PRR 16), rhabdomyolysis (341 reports, PRR 48), myopathy (PRR 52), and raised creatine phosphokinase (PRR 27) were all flagged. This pattern is consistent with rosuvastatin's well-established statin-class muscle toxicity, and the fact that these known signals surfaced strongly serves as a validation that the method is working as intended. Hepatic signals (raised ALT, hepatic enzymes) were also flagged, consistent with the drug's label.
 
-Running `python run_analysis.py` produces:
-
-- `data/processed/signals.csv` — every adverse-event term ranked by PRR, with CIs, chi², and a signal flag.
-- `figures/top_adverse_events.png` — most-reported events, signals highlighted.
-- `figures/signal_scatter.png` — PRR vs. case count, with the PRR ≥ 2 threshold drawn in.
-
-
-
 ## Run it yourself
 
 ```bash
