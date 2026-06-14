@@ -53,9 +53,7 @@ Running `python run_analysis.py` produces:
 - `figures/top_adverse_events.png` — most-reported events, signals highlighted.
 - `figures/signal_scatter.png` — PRR vs. case count, with the PRR ≥ 2 threshold drawn in.
 
-> Fill in 2–3 sentences here with your actual headline finding once you've run
-> it on your chosen drug class — e.g. which event came out as the strongest
-> disproportionality signal and how it compares to the drug's known label.
+
 
 ## Run it yourself
 
